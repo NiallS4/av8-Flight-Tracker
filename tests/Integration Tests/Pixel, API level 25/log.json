@@ -1,0 +1,153 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 1.952,
+    "endTimeSeconds": 3.593,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 4.773,
+    "endTimeSeconds": 5.091,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ad",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 2,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 5.601,
+    "endTimeSeconds": 5.924,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ad",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 3,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 6.393,
+    "endTimeSeconds": 6.646,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ad",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 4,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 7.083,
+    "endTimeSeconds": 7.927,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "LONG_PRESS",
+      "childSequence": "0.0.1.0.1.0.1.1.3",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.ActionMenuPresenter$OverflowMenuButton",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "More options"
+      }
+    }
+  }, {
+    "sequence": 5,
+    "sourceScreenId": "1",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 8.307,
+    "endTimeSeconds": 9.26,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.0",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/action_camera",
+        "className": "androidx.appcompat.view.menu.ActionMenuItemView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "AR"
+      }
+    }
+  }, {
+    "sequence": 6,
+    "sourceScreenId": "2",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 10.285,
+    "endTimeSeconds": 11.681000000000001,
+    "executionResult": "SUCCESS",
+    "wait": {
+      "durationSeconds": 1.0
+    }
+  }, {
+    "sequence": 7,
+    "sourceScreenId": "3",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 14.01,
+    "endTimeSeconds": 24.523,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 8,
+    "sourceScreenId": "4",
+    "destinationScreenId": "5",
+    "startTimeSeconds": 89.04,
+    "endTimeSeconds": 91.655,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 20
+    }
+  }, {
+    "sequence": 28,
+    "sourceScreenId": "5",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 156.063,
+    "endTimeSeconds": 158.619,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 20
+    }
+  }, {
+    "sequence": 48,
+    "sourceScreenId": "6",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 222.896,
+    "endTimeSeconds": 225.396,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 20
+    }
+  }, {
+    "sequence": 68,
+    "sourceScreenId": "7",
+    "destinationScreenId": "8",
+    "startTimeSeconds": 289.777,
+    "endTimeSeconds": 292.326,
+    "executionResult": "SUCCESS",
+    "monkey": {
+      "tapCount": 20
+    }
+  }]
+}

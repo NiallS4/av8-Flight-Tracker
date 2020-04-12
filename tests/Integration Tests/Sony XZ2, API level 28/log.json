@@ -1,0 +1,362 @@
+{
+  "events": [{
+    "sourceScreenId": "0",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 2.718,
+    "endTimeSeconds": 4.195,
+    "executionResult": "SUCCESS",
+    "launch": {
+      "action": "android.intent.action.MAIN"
+    }
+  }, {
+    "sequence": 1,
+    "sourceScreenId": "1",
+    "destinationScreenId": "2",
+    "startTimeSeconds": 15.818,
+    "endTimeSeconds": 26.484,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ae",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 2,
+    "sourceScreenId": "2",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 48.583,
+    "endTimeSeconds": 49.49,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.0.0.1.0.0.1",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "android:id/aerr_close",
+        "className": "android.widget.Button",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "Close app"
+      }
+    }
+  }, {
+    "sequence": 3,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 49.591,
+    "endTimeSeconds": 49.846,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ae",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 4,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 49.984,
+    "endTimeSeconds": 50.342,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ae",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 5,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 50.441,
+    "endTimeSeconds": 50.738,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.2.0",
+      "targetDetails": {
+        "className": "android.widget.ImageView",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "My Location"
+      }
+    }
+  }, {
+    "sequence": 6,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 50.866,
+    "endTimeSeconds": 51.62,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "LONG_PRESS",
+      "childSequence": "0.0.1.0.1.0.1.1.3",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.ActionMenuPresenter$OverflowMenuButton",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "More options"
+      }
+    }
+  }, {
+    "sequence": 7,
+    "sourceScreenId": "1",
+    "destinationScreenId": "3",
+    "startTimeSeconds": 51.735,
+    "endTimeSeconds": 52.225,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.3",
+      "targetDetails": {
+        "className": "androidx.appcompat.widget.ActionMenuPresenter$OverflowMenuButton",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "More options"
+      }
+    }
+  }, {
+    "sequence": 8,
+    "sourceScreenId": "3",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 52.787,
+    "endTimeSeconds": 53.172,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.0.3",
+      "targetDetails": {
+        "className": "androidx.appcompat.view.menu.ListMenuItemView",
+        "androidClassName": "android.widget.LinearLayout"
+      }
+    }
+  }, {
+    "sequence": 9,
+    "sourceScreenId": "1",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 53.265,
+    "endTimeSeconds": 53.632,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.2.0.1",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/search_button",
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "Search"
+      }
+    }
+  }, {
+    "sequence": 10,
+    "sourceScreenId": "4",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 54.382,
+    "endTimeSeconds": 54.681,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ae",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 11,
+    "sourceScreenId": "4",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 54.772,
+    "endTimeSeconds": 55.022,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ae",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 12,
+    "sourceScreenId": "4",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 55.106,
+    "endTimeSeconds": 55.372,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "SWIPE",
+      "childSequence": "0.0.1.0.1.0.0.0.0",
+      "targetDetails": {
+        "className": "com.google.maps.api.android.lib6.gmm6.api.ae",
+        "androidClassName": "android.view.TextureView",
+        "contentDescription": "Google Map"
+      }
+    }
+  }, {
+    "sequence": 13,
+    "sourceScreenId": "4",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 55.469,
+    "endTimeSeconds": 55.838,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0.0.2.0",
+      "targetDetails": {
+        "className": "android.widget.ImageView",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "My Location"
+      }
+    }
+  }, {
+    "sequence": 14,
+    "sourceScreenId": "4",
+    "destinationScreenId": "4",
+    "startTimeSeconds": 55.94,
+    "endTimeSeconds": 56.242,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.1",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/action_refresh",
+        "className": "androidx.appcompat.view.menu.ActionMenuItemView",
+        "androidClassName": "android.widget.TextView",
+        "contentDescription": "Refresh"
+      }
+    }
+  }, {
+    "sequence": 15,
+    "sourceScreenId": "4",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 56.314,
+    "endTimeSeconds": 56.66,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.2.0.2.1.1",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/search_close_btn",
+        "className": "androidx.appcompat.widget.AppCompatImageView",
+        "androidClassName": "android.widget.ImageView",
+        "contentDescription": "Clear query"
+      }
+    }
+  }, {
+    "sequence": 16,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 56.723,
+    "endTimeSeconds": 56.997,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.0",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/map",
+        "className": "android.widget.FrameLayout",
+        "androidClassName": "android.widget.FrameLayout"
+      }
+    }
+  }, {
+    "sequence": 17,
+    "sourceScreenId": "1",
+    "destinationScreenId": "1",
+    "startTimeSeconds": 57.072,
+    "endTimeSeconds": 57.366,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.1",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/action_refresh",
+        "className": "androidx.appcompat.view.menu.ActionMenuItemView",
+        "androidClassName": "android.widget.TextView",
+        "contentDescription": "Refresh"
+      }
+    }
+  }, {
+    "sequence": 18,
+    "sourceScreenId": "1",
+    "destinationScreenId": "5",
+    "startTimeSeconds": 57.443,
+    "endTimeSeconds": 68.439,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.1.0.1.0.1.1.0",
+      "targetDetails": {
+        "resourceName": "com.nialls.av8:id/action_camera",
+        "className": "androidx.appcompat.view.menu.ActionMenuItemView",
+        "androidClassName": "android.widget.TextView",
+        "textLabel": "AR"
+      }
+    }
+  }, {
+    "sequence": 19,
+    "sourceScreenId": "5",
+    "destinationScreenId": "6",
+    "startTimeSeconds": 131.998,
+    "endTimeSeconds": 133.65,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.0.0.1.0.0.0",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "android:id/aerr_app_info",
+        "className": "android.widget.Button",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "App info"
+      }
+    }
+  }, {
+    "sequence": 20,
+    "sourceScreenId": "6",
+    "destinationScreenId": "5",
+    "startTimeSeconds": 135.167,
+    "endTimeSeconds": 145.397,
+    "executionResult": "SUCCESS",
+    "system": {
+      "type": "BACK"
+    }
+  }, {
+    "sequence": 21,
+    "sourceScreenId": "5",
+    "destinationScreenId": "7",
+    "startTimeSeconds": 206.058,
+    "endTimeSeconds": 216.723,
+    "executionResult": "SUCCESS",
+    "target": {
+      "type": "TAP",
+      "childSequence": "0.0.0.0.1.0.0.1",
+      "targetDetails": {
+        "componentType": "BUTTON",
+        "resourceName": "android:id/aerr_close",
+        "className": "android.widget.Button",
+        "androidClassName": "android.widget.Button",
+        "textLabel": "Close app"
+      }
+    }
+  }, {
+    "sequence": 22,
+    "sourceScreenId": "7",
+    "destinationScreenId": "8",
+    "startTimeSeconds": 283.913,
+    "endTimeSeconds": 303.957,
+    "executionResult": "FAILED",
+    "system": {
+      "type": "BACK"
+    }
+  }]
+}
