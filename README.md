@@ -21,7 +21,6 @@ av8 Map                    |  av8 AR
 
 * Android device running at least Android 7.0 (“Nougat”).
 * Google Play Services for AR (ARCore) must be installed to use the AR component. [List of compatible devices](https://developers.google.com/ar/discover/supported-devices).
-* An **ADS-B Exchange API Key is required**. Keys are available on [RapidAPI](https://rapidapi.com/adsbx/api/adsbexchange-com1/) and cost $9.99 USD per month.
 
 ### Installation Guide
 
