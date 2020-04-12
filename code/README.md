@@ -1,6 +1,6 @@
 # Code Samples
 
-Map Initialistation        | API Call via Firebase 
+Map Initialisation        | API Call via Firebase 
 :-------------------------:|:-------------------------:
 ![alt text](https://github.com/NiallS4/av8-Flight-Tracker/blob/master/code/code_sample_images/map_code_sample.png?raw=true "Map Sample Code")  |  ![alt text](https://github.com/NiallS4/av8-Flight-Tracker/blob/master/code/code_sample_images/api_code_sample.png?raw=true "API Call via Firebase Sample Code")
 
