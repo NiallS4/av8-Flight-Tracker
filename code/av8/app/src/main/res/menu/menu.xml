@@ -1,0 +1,137 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_camera"
+        android:title="@string/action_camera"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filter"
+        android:title="@string/filter_aircraft"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/filter_type"
+                android:title="@string/filter_type"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_operator"
+                android:title="@string/filter_operator"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_country"
+                android:title="@string/filter_country"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/show_military"
+        android:title="@string/show_military"
+        app:showAsAction="never" >
+    </item>
+
+    <item
+        android:id="@+id/heat_maps"
+        android:title="@string/heat_maps"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/show_altitude_heat_map"
+                android:title="@string/show_altitude_heat_map"
+                app:showAsAction="never"
+                />
+
+            <item
+                android:id="@+id/show_speed_heat_map"
+                android:title="@string/show_speed_heat_map"
+                app:showAsAction="never"
+                />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/action_compass"
+                android:title="@string/action_compass"
+                app:showAsAction="never" >
+                <menu>
+                    <item
+                        android:id="@+id/show_compass"
+                        android:title="@string/show_compass"
+                        app:showAsAction="never" >
+                    </item>
+                    <item
+                        android:id="@+id/hide_compass"
+                        android:title="@string/hide_compass"
+                        app:showAsAction="never" >
+                    </item>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/set_map_type"
+                android:title="@string/set_map"
+                app:showAsAction="never" >
+                <menu>
+                    <item
+                        android:id="@+id/set_map_terrain"
+                        android:title="@string/set_map_terrain"
+                        app:showAsAction="never" >
+                    </item>
+                    <item
+                        android:id="@+id/set_map_normal"
+                        android:title="@string/set_map_normal"
+                        app:showAsAction="never" >
+                    </item>
+                    <item
+                        android:id="@+id/set_map_satellite"
+                        android:title="@string/set_map_satellite"
+                        app:showAsAction="never" >
+                    </item>
+                    <item
+                        android:id="@+id/set_map_hybrid"
+                        android:title="@string/set_map_hybrid"
+                        app:showAsAction="never" >
+                    </item>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/set_ar_dist"
+                android:title="@string/set_ar"
+                app:showAsAction="never" >
+                <menu>
+                    <item
+                        android:id="@+id/set_ar_25nm"
+                        android:title="@string/set_ar_25nm"
+                        app:showAsAction="never" >
+                    </item>
+                    <item
+                        android:id="@+id/set_ar_100nm"
+                        android:title="@string/set_ar_100nm"
+                        app:showAsAction="never" >
+                    </item>
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="@string/help"
+        app:showAsAction="never" >
+    </item>
+
+</menu>

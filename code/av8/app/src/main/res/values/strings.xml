@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">av8</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_map">Map</string>
+    <string name="action_camera">AR</string>
+    <string name="set_map">Set Map Type</string>
+    <string name="set_map_terrain">Terrain Map</string>
+    <string name="set_map_normal">Road Map</string>
+    <string name="set_map_satellite">Satellite Map</string>
+    <string name="set_map_hybrid">Hybrid Map</string>
+    <string name="set_ar">Set AR View Distance</string>
+    <string name="set_ar_25nm">Set AR 25nm</string>
+    <string name="set_ar_100nm">Set AR 100nm</string>
+    <string name="api_call">API Call</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="compass">Compass</string>
+    <string name="needle">Compass Needle</string>
+    <string name="action_compass">Show/Hide Compass</string>
+    <string name="show_compass">Show Compass</string>
+    <string name="hide_compass">Hide Compass</string>
+    <string name="show_military">Show All Military Aircraft</string>
+    <string name="heat_maps">Heat Maps</string>
+    <string name="show_altitude_heat_map">Show Altitude Heat Map</string>
+    <string name="show_speed_heat_map">Show Speed Heat Map</string>
+    <string name="search">Search</string>
+    <string name="filter_aircraft">Filter Aircraft</string>
+    <string name="filter_type">Filter by Type</string>
+    <string name="filter_operator">Filter by Operator</string>
+    <string name="filter_country">Filter by Country</string>
+    <string name="help">Help</string>
+    <string name="adsb_api_key">a7f5ea86famsh90c76e420e25c01p1a76d4jsne9b1f2e24284</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "972073264472",
+    "firebase_url": "https://av8-flight-tracker.firebaseio.com",
+    "project_id": "av8-flight-tracker",
+    "storage_bucket": "av8-flight-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972073264472:android:d4a60370a2aa17b813f12d",
+        "android_client_info": {
+          "package_name": "com.nialls.av8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972073264472-16i0u3s56uoli0toqfpu62k8l5pnpnun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nialls.av8",
+            "certificate_hash": "56ba4b9e32939ee6e34b114544ab09a298f84df1"
+          }
+        },
+        {
+          "client_id": "972073264472-71qhlhkvjkfg86q7urn7575gj1dj0fsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ1nlULXWhyfTmdRTO0MYx86HlWlJTODo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972073264472-71qhlhkvjkfg86q7urn7575gj1dj0fsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
