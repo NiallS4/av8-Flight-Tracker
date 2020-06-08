@@ -26,6 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
@@ -76,8 +77,8 @@ public class MainActivity extends AppCompatActivity implements
     // Sensors and sensor values for calculating bearing
     private Sensor mAccelerometer;
     private Sensor mMagnetometer;
-    private float [] mGravity;
-    private float [] mGeomagnetic;
+    private float[] mGravity;
+    private float[] mGeomagnetic;
 
     // Values store user direction and allow tweaking of compass update sensitivity
     private float userDirection = 0f;
@@ -140,9 +141,18 @@ public class MainActivity extends AppCompatActivity implements
     public void onRequestPermissionsResult(int requestCode, @NotNull String[] permissions, @NotNull int[] grantResults) {
         // Location permission
         if (requestCode == MY_LOCATION_REQUEST_CODE) {
+            // If user does not grant location permission, map defaults to Dublin
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                Toast toast = Toast.makeText(this, "Location permission required to use AR", Toast.LENGTH_SHORT);
+                toast.setGravity(Gravity.CENTER, 0, 0);
+                toast.show();
+
+                LatLng dubAirport = new LatLng(53.427, -6.245);
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(dubAirport, 8.0f));
+                api.apiCall(String.valueOf(dubAirport.latitude), String.valueOf(dubAirport.longitude));
+            }
             // If user grants location permission
-            if (permissions.length > 0 && permissions[0].equals(Manifest.permission.ACCESS_FINE_LOCATION) &&
-                    grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            else {
                 mMap.setMyLocationEnabled(true);
                 mMap.setOnMyLocationClickListener(this);
                 // Get user current location
@@ -158,16 +168,6 @@ public class MainActivity extends AppCompatActivity implements
                                 api.apiCall(String.valueOf(userLat), String.valueOf(userLon));
                             }
                         });
-            }
-            // If user does not grant location permission, map defaults to Dublin
-            else {
-                Toast toast = Toast.makeText(this, "Location permission required to use AR", Toast.LENGTH_SHORT);
-                toast.setGravity(Gravity.CENTER, 0, 0);
-                toast.show();
-
-                LatLng dubAirport = new LatLng(53.427, -6.245);
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(dubAirport, 8.0f));
-                api.apiCall(String.valueOf(dubAirport.latitude), String.valueOf(dubAirport.longitude));
             }
         }
         // Camera permission
