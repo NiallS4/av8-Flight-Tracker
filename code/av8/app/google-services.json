@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:972073264472:android:d4a60370a2aa17b813f12d",
+        "mobilesdk_app_id": "1:972073264472:android:8becdf600333cb7313f12d",
         "android_client_info": {
           "package_name": "com.nialls.av8"
         }
       },
       "oauth_client": [
         {
-          "client_id": "972073264472-16i0u3s56uoli0toqfpu62k8l5pnpnun.apps.googleusercontent.com",
+          "client_id": "972073264472-0d14te1q8djbl681v8ti5vsnhnukvbt1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.nialls.av8",
-            "certificate_hash": "56ba4b9e32939ee6e34b114544ab09a298f84df1"
+            "certificate_hash": "f55b160c2730e5f3b31f7e5e33d47eb82b66d03c"
           }
         },
         {

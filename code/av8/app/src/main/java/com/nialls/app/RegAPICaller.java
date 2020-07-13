@@ -62,7 +62,6 @@ public class RegAPICaller extends APICaller {
     private Task<String> firebaseCall(String reg) {
         // Create the arguments to the callable function, which are three strings
         Map<String, String> data = new HashMap<>();
-        data.put("apiKey", MainActivity.getInstance().getResources().getString(R.string.adsb_api_key));
         data.put("registration", reg);
 
         // Calls Firebase JavaScript function "getAircraftByReg" and creates HashMap

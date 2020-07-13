@@ -225,7 +225,6 @@ public final class ARActivity extends AppCompatActivity implements SensorEventLi
     private Task<String> apiCall(String lat, String lon, String dst) {
         // Create the arguments to the callable function, which are three strings
         Map<String, String> data = new HashMap<>();
-        data.put("apiKey", getResources().getString(R.string.adsb_api_key));
         data.put("latitude", lat);
         data.put("longitude", lon);
         data.put("dist", dst);

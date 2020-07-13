@@ -48,6 +48,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 
 import com.google.android.gms.maps.model.Marker;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 import com.nialls.R;
 import com.nialls.app.APICaller;
 import com.nialls.app.Filter;
@@ -107,6 +109,13 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        FirebaseOptions options = new FirebaseOptions.Builder()
+                .setApplicationId("1:972073264472:android:8becdf600333cb7313f12d") // Required for Analytics.
+                .setProjectId("av8-flight-tracker") // Required for Firebase Installations.
+                .setApiKey("AIzaSyAZ1nlULXWhyfTmdRTO0MYx86HlWlJTODo") // Required for Auth.
+                .build();
+        FirebaseApp.initializeApp(this, options, "av8 Android");
+
         setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         instance = this;

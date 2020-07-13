@@ -85,7 +85,6 @@ public class APICaller {
     private Task<String> firebaseCall(String lat, String lon, String dst) {
         // Create the arguments to the callable function, which are three strings
         Map<String, String> data = new HashMap<>();
-        data.put("apiKey", MainActivity.getInstance().getResources().getString(R.string.adsb_api_key));
         data.put("latitude", lat);
         data.put("longitude", lon);
         data.put("dist", dst);

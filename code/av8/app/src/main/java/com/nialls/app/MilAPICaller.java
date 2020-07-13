@@ -49,7 +49,6 @@ public class MilAPICaller extends APICaller {
 
     private Task<String> firebaseCall() {
         Map<String, String> data = new HashMap<>();
-        data.put("apiKey", MainActivity.getInstance().getResources().getString(R.string.adsb_api_key));
 
         // Calls Firebase JavaScript function "getMilitaryAircraft" and creates HashMap
         return mFunctions
