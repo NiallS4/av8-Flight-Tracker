@@ -51,16 +51,20 @@ dependencies {
     // Firebase SDK for Crashlytics.
     implementation 'com.google.firebase:firebase-crashlytics:17.1.1'
     // Performance Monitoring library
-    implementation 'com.google.firebase:firebase-perf:19.0.7'
+    implementation ('com.google.firebase:firebase-perf:19.0.7') {
+        exclude group: "com.google.protobuf"
+    }
     // Firebase Functions
     implementation 'com.google.firebase:firebase-functions:19.0.2'
     // Firestore (Database)
-    implementation 'com.google.firebase:firebase-firestore:21.4.3'
+    implementation 'com.google.firebase:firebase-firestore:21.5.0'
 
     // AR Dependencies
-    implementation 'com.google.ar:core:1.17.0'
+    implementation 'com.google.ar:core:1.18.0'
     // Do not use newer Sceneform version 1.17.0 (Google issue)
+    //noinspection GradleDependency
     implementation "com.google.ar.sceneform:core:1.15.0"
+    //noinspection GradleDependency
     implementation "com.google.ar.sceneform.ux:sceneform-ux:1.15.0"
     implementation 'com.github.appoly:ARCore-Location:1.2'
     // Glide (for AR marker plane image)
